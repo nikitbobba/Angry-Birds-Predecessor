@@ -20,7 +20,7 @@ public class TargetBox : MonoBehaviour
 
     private void Scored()
     {
-        // FILL ME IN
+        
         SpriteRenderer render = gameObject.GetComponent<SpriteRenderer>();
         float mass = gameObject.GetComponent<Rigidbody2D>().mass;
         if (render.color != Color.green)
